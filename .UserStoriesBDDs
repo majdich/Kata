@@ -1,12 +1,16 @@
 User Story 1:
 
-As Closer, I should be coonected to an authentication page in order to enter application.
+As Closer, I should connect to an authentication page in order to enter application.
 
 BDDs:
 
-1. Given I'm a Closer and I enter a valid login and password, when I type enter then I access application.
+1. Given I'm a Closer and I enter a valid login and password
+   when I type enter 
+   then I get access to the application.
 
-2. Given I'm a Closer and I enter an invalid login or password, when I type enter then I get an error message and I couldn't access application.
+2. Given I'm a Closer and I enter an invalid login or password 
+   when I type enter 
+   then I get an error message and I couldn't access application.
 
 User Story 2:
 
@@ -14,9 +18,13 @@ As a support member, I should have access to an admin section.
 
 BDDs:
 
-1. Given I'm a support member , when I access application then I get an admin section.
+1. Given I'm a support member
+   when I access application 
+   then I get an admin section.
 
-2. Given I'm not a support member , when I access application then I then I could access the application and get an admin section.
+2. Given I'm not a support member
+   when I access application 
+   then I could access the application and get an admin section.
 
 
 User Story 3:
@@ -24,20 +32,20 @@ User Story 3:
 As a support member, I should be able to manage user's profile.
 
 1. Given I'm a support member 
-when I enter the application
-then I could create a new user.
+   when I enter the application
+   then I could create a new user.
 
 
 2. Given I'm a support member and I create a new user whith an existing name
-when I save
-then I get an error message.
+   when I save
+   then I get an error message.
 
 
 3. Given I'm a support member 
-when I enter the application
-then I could update existing user.
+   when I enter the application
+   then I could update existing user.
 
 
 4. Given I'm a support member 
-when I enter the application
-then I could manage user's profile
+   when I enter the application
+   then I could manage user's profile
