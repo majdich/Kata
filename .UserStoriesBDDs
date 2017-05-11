@@ -20,11 +20,11 @@ BDDs:
 
 1. Given I'm a support member
    when I access application 
-   then I get an admin section.
+   then I get an admin section
 
 2. Given I'm not a support member
    when I access application 
-   then I could access the application and get an admin section.
+   then I don't have an admin section.
 
 
 User Story 3:
