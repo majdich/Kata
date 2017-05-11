@@ -36,7 +36,7 @@ As a support member, I should be able to manage user's profile.
    then I could create a new user.
 
 
-2. Given I'm a support member and I create a new user whith an existing ID
+2. Given I'm a support member and I create a new user with an existing ID
    when I save
    then I get an error message.
 
